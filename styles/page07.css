@@ -1,0 +1,40 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+div.brLine {
+    display: block;
+    clear: left;
+    margin-bottom: 5px;
+}
+
+p {
+    color: red;
+    display: inline;
+    font-size: 10px;
+    font-family: Verdana;
+}
+
+h1 {
+    color: blue;
+    font-size: 24px;
+    font-family: Verdana;
+}
+
+.grid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    margin-left: 5px;
+}
+
+div.geral {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}

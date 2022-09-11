@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 7</title>
+    <script src="../scripts/script07.js"></script>
+    <link rel="stylesheet" href="../styles/page07.css">
+</head>
+
+<body>
+    <form>
+        <div class="geral">
+            <h1>Acesso ao Sistema</h1>
+            <div class="brLine">
+                <label>Login</label>
+                <input type="text" id="txtLogin">
+            </div>
+            <div class="brLine">
+                <label>Senha</label>
+                <input type="password" id="txtSenha" maxlength="8">
+                <p>(max. 8 caracteres)</p>
+            </div>
+            <div class="brLine">
+                <label>Confirmar senha:</label>
+                <input type="password" id="txtConfSenha" maxlength="8">
+                <p>(max. 8 caracteres)</p>
+            </div>
+        </div>
+        <div class="grid">
+            <input type="button" class="btn" value="Entrar" onclick="validar()">
+            <input type="reset" class="btn" value="Limpar">
+        </div>
+    </form>
+</body>
+
+</html>
